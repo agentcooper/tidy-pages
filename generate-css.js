@@ -7,7 +7,7 @@ const selectors = [
   // youtube.com, home video recommendations
   `ytd-browse[page-subtype="home"]`,
 
-  // youtube.com, home video recommendations
+  // youtube.com, related video recommendations
   `#secondary #related`,
 ];
 
@@ -16,7 +16,6 @@ for (const selector of selectors) {
 ${selector} {
   border: 1px dashed gray !important;
 }
-
 ${selector} > * {
   visibility: hidden !important;
 }

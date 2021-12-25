@@ -1,7 +1,6 @@
 .application-main #dashboard {
   border: 1px dashed gray !important;
 }
-
 .application-main #dashboard > * {
   visibility: hidden !important;
 }
@@ -9,7 +8,6 @@
 ytd-browse[page-subtype="home"] {
   border: 1px dashed gray !important;
 }
-
 ytd-browse[page-subtype="home"] > * {
   visibility: hidden !important;
 }
@@ -17,7 +15,6 @@ ytd-browse[page-subtype="home"] > * {
 #secondary #related {
   border: 1px dashed gray !important;
 }
-
 #secondary #related > * {
   visibility: hidden !important;
 }

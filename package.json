@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "build": "node generate-css.js > generated.css"
+  }
+}

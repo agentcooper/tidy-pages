@@ -4,6 +4,9 @@ const selectors = [
   // github.com, activity feed
   `.application-main #dashboard`,
 
+  // github.com, repository recommendations
+  `aside[aria-label="Explore"]`,
+
   // youtube.com, home video recommendations
   `ytd-browse[page-subtype="home"]`,
 

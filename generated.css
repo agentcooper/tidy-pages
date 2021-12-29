@@ -5,6 +5,13 @@
   visibility: hidden !important;
 }
 
+aside[aria-label="Explore"] {
+  border: 1px dashed gray !important;
+}
+aside[aria-label="Explore"] > * {
+  visibility: hidden !important;
+}
+
 ytd-browse[page-subtype="home"] {
   border: 1px dashed gray !important;
 }

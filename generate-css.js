@@ -12,6 +12,11 @@ const selectors = [
 
   // youtube.com, related video recommendations
   `#secondary #related`,
+
+  // facebook.com, profile sidebar
+  `[data-pagelet="ProfileTilesFeed_0"]`,
+  `[data-pagelet="ProfileTilesFeed_1"]`,
+  `[data-pagelet="ProfileTilesFeed_{n}"]`,
 ];
 
 for (const selector of selectors) {

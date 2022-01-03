@@ -25,3 +25,24 @@ ytd-browse[page-subtype="home"] > * {
 #secondary #related > * {
   visibility: hidden !important;
 }
+
+[data-pagelet="ProfileTilesFeed_0"] {
+  border: 1px dashed gray !important;
+}
+[data-pagelet="ProfileTilesFeed_0"] > * {
+  visibility: hidden !important;
+}
+
+[data-pagelet="ProfileTilesFeed_1"] {
+  border: 1px dashed gray !important;
+}
+[data-pagelet="ProfileTilesFeed_1"] > * {
+  visibility: hidden !important;
+}
+
+[data-pagelet="ProfileTilesFeed_{n}"] {
+  border: 1px dashed gray !important;
+}
+[data-pagelet="ProfileTilesFeed_{n}"] > * {
+  visibility: hidden !important;
+}

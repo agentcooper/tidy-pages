@@ -2,7 +2,7 @@ let result = ``;
 
 // fight popups
 result += `
-html {
+html[style*="overflow: hidden"] {
   overflow: scroll !important;
 }
 `;

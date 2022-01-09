@@ -1,5 +1,12 @@
 let result = ``;
 
+// fight popups
+result += `
+html {
+  overflow: scroll !important;
+}
+`;
+
 const selectors = [
   // github.com, activity feed
   `.application-main #dashboard`,
@@ -17,6 +24,12 @@ const selectors = [
   `[data-pagelet="ProfileTilesFeed_0"]`,
   `[data-pagelet="ProfileTilesFeed_1"]`,
   `[data-pagelet="ProfileTilesFeed_{n}"]`,
+
+  // twitter.com, footer and login popup
+  `#react-root #layers`,
+
+  // twitter.com, sidebar
+  `[role="main"] [data-testid="sidebarColumn"]`,
 ];
 
 for (const selector of selectors) {

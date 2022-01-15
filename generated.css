@@ -51,16 +51,16 @@ ytd-browse[page-subtype="home"] > * {
   visibility: hidden !important;
 }
 
-#react-root #layers {
-  border: 1px dashed gray !important;
-}
-#react-root #layers > * {
-  visibility: hidden !important;
-}
-
 [role="main"] [data-testid="sidebarColumn"] {
   border: 1px dashed gray !important;
 }
 [role="main"] [data-testid="sidebarColumn"] > * {
+  visibility: hidden !important;
+}
+
+#hnmain .itemlist {
+  border: 1px dashed gray !important;
+}
+#hnmain .itemlist > * {
   visibility: hidden !important;
 }

@@ -25,11 +25,11 @@ const selectors = [
   `[data-pagelet="ProfileTilesFeed_1"]`,
   `[data-pagelet="ProfileTilesFeed_{n}"]`,
 
-  // twitter.com, footer and login popup
-  `#react-root #layers`,
-
   // twitter.com, sidebar
   `[role="main"] [data-testid="sidebarColumn"]`,
+
+  // news.ycombinator.com, hide main page
+  `#hnmain .itemlist`,
 ];
 
 for (const selector of selectors) {

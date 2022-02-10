@@ -64,3 +64,10 @@ ytd-browse[page-subtype="home"] > * {
 #hnmain .itemlist > * {
   visibility: hidden !important;
 }
+
+#voyager-feed {
+  border: 1px dashed gray !important;
+}
+#voyager-feed > * {
+  visibility: hidden !important;
+}

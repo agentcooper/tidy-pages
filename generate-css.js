@@ -30,6 +30,9 @@ const selectors = [
 
   // news.ycombinator.com, hide main page
   `#hnmain .itemlist`,
+
+  // linkedin.com, feed
+  `#voyager-feed`,
 ];
 
 for (const selector of selectors) {

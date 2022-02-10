@@ -33,6 +33,9 @@ const selectors = [
 
   // linkedin.com, feed
   `#voyager-feed`,
+
+  // linkedin.com, notification icon
+  `[data-test-global-nav-link="notifications"]`,
 ];
 
 for (const selector of selectors) {

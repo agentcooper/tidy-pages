@@ -71,3 +71,10 @@ ytd-browse[page-subtype="home"] > * {
 #voyager-feed > * {
   visibility: hidden !important;
 }
+
+[data-test-global-nav-link="notifications"] {
+  border: 1px dashed gray !important;
+}
+[data-test-global-nav-link="notifications"] > * {
+  visibility: hidden !important;
+}
